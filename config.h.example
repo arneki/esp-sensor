@@ -1,0 +1,17 @@
+#define sensor_name "outside"
+#define interval 15
+
+#define wifi_ssid "MartinRouterKing"
+#define wifi_password "012345abcd"
+
+#define mqtt_server "192.168.1.7"
+
+#define hum_topic "sensor/" sensor_name "/humidity"
+#define temp_topic "sensor/" sensor_name "/temperature"
+#define batt_topic "sensor/" sensor_name "/battery"
+
+#define update_topic "cmnd/" sensor_name "/update"
+#define update_path "http://192.168.1.8/arduino/" sensor_name "/firmware.bin"
+
+#define DHTTYPE DHT22
+#define DHTPIN  14
